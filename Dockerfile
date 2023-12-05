@@ -7,4 +7,4 @@ COPY test.java .
 RUN javac test.java
 
 
-CMD java test 
+CMD ["java", "test"]
