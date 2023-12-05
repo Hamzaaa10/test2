@@ -1,4 +1,4 @@
-FROM alpine
+FROM openjdk:11-jdk-slim
 
 WORKDIR /application
 
