@@ -12,12 +12,11 @@ jops:
     runs_on: ubuntu_latest
 
     steps:
-      - name:'before'
-        run: ls
-
+      
       - uses: actions/checkout@v3
 
-      - name: 'after'
-        run: ls
+      - name: 'login to docker hub'
+        run: docker login --username ghoname password dckr_pat_dE5jE_0vpgv68f1cFlc-5gQdBFk
+        
 
 
