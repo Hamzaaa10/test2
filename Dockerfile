@@ -4,7 +4,7 @@ WORKDIR /application
 
 COPY test.java .
 
-RUN java test.java
+RUN javac test.java
 
 
 CMD java test 
