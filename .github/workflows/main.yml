@@ -16,7 +16,7 @@ jops:
       - uses: actions/checkout@v3
 
       - name: 'login to docker hub'
-        run: docker login --username ghoname password dckr_pat_dE5jE_0vpgv68f1cFlc-5gQdBFk
+        run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
         
 
 
