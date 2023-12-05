@@ -7,15 +7,15 @@ on:
 
 
 
- jops: 
-   build: 
-     runs_on: ubuntu_latest
+jops: 
+  build: 
+    runs_on: ubuntu_latest
 
-     steps:
-       - name:'testing github action'
-         run: pwd
+    steps:
+      - name:'testing github action'
+        run: pwd
 
-       - name:'Testing printing'
-         run: echo ahmed
+      - name:'Testing printing'
+        run: echo ahmed
 
 
