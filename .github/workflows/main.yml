@@ -12,9 +12,12 @@ jops:
     runs_on: ubuntu_latest
 
     steps:
-      - name:'print folder content'
+      - name:'before'
         run: ls
 
-      
+      - uses: actions/checkout@v3
+
+      - name: 'after'
+        run: ls
 
 
